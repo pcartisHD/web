@@ -1,0 +1,32 @@
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fixes.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/jf_font.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/base.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/accentlist.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/rounding.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/smallercast.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/episodelist/episodes_compactlist.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/header/header_transparent.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_frame.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fields/fields_noborder.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/cornerindicator/indicator_floating.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/dark.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_banner-logo.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/overlayprogress.css');
+@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/effects/hoverglow.css');
+
+/*Style backdrop*/
+.backdropImage 
+{
+    filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);
+}
+
+/*Login background*/
+#loginPage 
+{
+    background: url(https://pcartis.de/assets/images/2391498.jpg) !important;
+    background-size: cover !important;
+}
+
+/*Accent and roundingd*/
+:root {--accent: 98, 121, 205;}
+:root {--rounding: 12px;}
